@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9334F0C0EE014B2EB12ABD57 /* Pods_CrashMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6EE68CD78E9B3D03464D7694 /* Pods_CrashMe.framework */; };
+		548485FF952B77FED00979BD /* Pods_CrashMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E83C45339FD1683472AFFBD /* Pods_CrashMe.framework */; };
 		D79DC5DD2DDB348A00E87B7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79DC5D02DDB348A00E87B7D /* AppDelegate.m */; };
 		D79DC5DE2DDB348A00E87B7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79DC5D52DDB348A00E87B7D /* main.m */; };
 		D79DC5DF2DDB348A00E87B7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79DC5D92DDB348A00E87B7D /* SceneDelegate.m */; };
@@ -19,7 +19,7 @@
 
 /* Begin PBXFileReference section */
 		3FFF88A01BB936EADF1E555D /* Pods-CrashMe.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashMe.debug.xcconfig"; path = "Target Support Files/Pods-CrashMe/Pods-CrashMe.debug.xcconfig"; sourceTree = "<group>"; };
-		6EE68CD78E9B3D03464D7694 /* Pods_CrashMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E83C45339FD1683472AFFBD /* Pods_CrashMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B785DB07B947EDD90E3D3EEF /* Pods-CrashMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashMe.release.xcconfig"; path = "Target Support Files/Pods-CrashMe/Pods-CrashMe.release.xcconfig"; sourceTree = "<group>"; };
 		D72419AD2DD73E0100AA4DA1 /* CrashMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D79DC5CF2DDB348A00E87B7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,7 +40,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9334F0C0EE014B2EB12ABD57 /* Pods_CrashMe.framework in Frameworks */,
+				548485FF952B77FED00979BD /* Pods_CrashMe.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,7 +50,7 @@
 		75F9DA78FA0A408B18560602 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				6EE68CD78E9B3D03464D7694 /* Pods_CrashMe.framework */,
+				8E83C45339FD1683472AFFBD /* Pods_CrashMe.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -97,7 +97,6 @@
 				3FFF88A01BB936EADF1E555D /* Pods-CrashMe.debug.xcconfig */,
 				B785DB07B947EDD90E3D3EEF /* Pods-CrashMe.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -112,7 +111,7 @@
 				D72419A92DD73E0100AA4DA1 /* Sources */,
 				D72419AA2DD73E0100AA4DA1 /* Frameworks */,
 				D72419AB2DD73E0100AA4DA1 /* Resources */,
-				1FD36ECFF685AC12B5830B9F /* [CP] Embed Pods Frameworks */,
+				F071043F012C566678EF2ED9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -139,6 +138,7 @@
 				};
 			};
 			buildConfigurationList = D72419A82DD73E0100AA4DA1 /* Build configuration list for PBXProject "CrashMe" */;
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -169,23 +169,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1FD36ECFF685AC12B5830B9F /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CrashMe/Pods-CrashMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-CrashMe/Pods-CrashMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrashMe/Pods-CrashMe-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B7347F5637CBF1F5F84B4F91 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -206,6 +189,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F071043F012C566678EF2ED9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashMe/Pods-CrashMe-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CrashMe/Pods-CrashMe-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CrashMe/Pods-CrashMe-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -252,6 +252,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CrashMe/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CrashMe;
@@ -281,6 +282,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = CrashMe/Info.plist;
 				INFOPLIST_KEY_CFBundleDisplayName = CrashMe;
