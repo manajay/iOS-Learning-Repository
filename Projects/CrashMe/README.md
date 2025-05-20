@@ -3,6 +3,16 @@
 该项目是收集常见的crash，并对其进行分析，以便于开发者定位和复现问题。
 
 ## 环境
+Demo 当前运行环境，Xcode 16.1 模拟器运行， 如果运行失败，请看下面的 QA
+
+## 推荐文章
+- [Diagnosing issues using crash reports and device logs](https://developer.apple.com/documentation/xcode/diagnosing-issues-using-crash-reports-and-device-logs)
+- [Understanding Crashes and Crash Logs](https://developer.apple.com/videos/play/wwdc2018/414/)
+- [iOS Crash Dump Analysis, Second Edition](https://faisalmemon.github.io/ios-crash-dump-analysis-book/zh/)
+- [Debug crashes in iOS using MetricKit](https://ohmyswift.com/blog/2025/05/08/debug-crashes-in-ios-using-metrickit/)
+
+## 资源
+- [iOS Crash Dump Analysis, Second Edition](../../Resources/Documents/ios-crash-dump-analysis-book-zh.pdf)
 
 ## QA
 
