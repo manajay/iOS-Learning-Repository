@@ -8,5 +8,6 @@ target 'CrashMe' do
 
   # Pods for CrashMe
   commonUI
+  pod 'TIFastApp', :path => '../TIFastApp', :subspecs => ['App', 'Common']
 
 end

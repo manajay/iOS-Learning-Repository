@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.1.0)
-  - MJExtension (3.4.2)
+  - MJExtension (3.4.1)
   - TIFastApp/App (0.1.0):
     - Masonry
     - TIFastApp/Common
@@ -12,8 +12,8 @@ PODS:
 DEPENDENCIES:
   - Masonry
   - MJExtension
-  - TIFastApp/App (from `../TIFastApp`)
-  - TIFastApp/Common (from `../TIFastApp`)
+  - TIFastApp/App (from `../`)
+  - TIFastApp/Common (from `../`)
 
 SPEC REPOS:
   trunk:
@@ -22,13 +22,13 @@ SPEC REPOS:
 
 EXTERNAL SOURCES:
   TIFastApp:
-    :path: "../TIFastApp"
+    :path: "../"
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  MJExtension: e97d164cb411aa9795cf576093a1fa208b4a8dd8
+  MJExtension: 21c5f6f8c4d5d8844b7ae8fbae08fed0b501f961
   TIFastApp: 1dea935a9dd988600c391adc69822065228a30f8
 
-PODFILE CHECKSUM: 2e25b8b05db75f4b296b263e3f93637a23f0b41c
+PODFILE CHECKSUM: 323f0ac63f476e06d566dc518119c163779d50c6
 
 COCOAPODS: 1.15.2

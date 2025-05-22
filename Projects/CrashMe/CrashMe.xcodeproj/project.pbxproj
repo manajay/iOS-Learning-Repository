@@ -8,13 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		548485FF952B77FED00979BD /* Pods_CrashMe.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8E83C45339FD1683472AFFBD /* Pods_CrashMe.framework */; };
-		D79DC5DD2DDB348A00E87B7D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79DC5D02DDB348A00E87B7D /* AppDelegate.m */; };
 		D79DC5DE2DDB348A00E87B7D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D79DC5D52DDB348A00E87B7D /* main.m */; };
-		D79DC5DF2DDB348A00E87B7D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D79DC5D92DDB348A00E87B7D /* SceneDelegate.m */; };
-		D79DC5E02DDB348A00E87B7D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79DC5DB2DDB348A00E87B7D /* ViewController.m */; };
 		D79DC5E12DDB348A00E87B7D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D79DC5D12DDB348A00E87B7D /* Assets.xcassets */; };
 		D79DC5E32DDB348A00E87B7D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79DC5D42DDB348A00E87B7D /* LaunchScreen.storyboard */; };
-		D79DC5E42DDB348A00E87B7D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D79DC5D72DDB348A00E87B7D /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,17 +18,10 @@
 		8E83C45339FD1683472AFFBD /* Pods_CrashMe.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CrashMe.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B785DB07B947EDD90E3D3EEF /* Pods-CrashMe.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CrashMe.release.xcconfig"; path = "Target Support Files/Pods-CrashMe/Pods-CrashMe.release.xcconfig"; sourceTree = "<group>"; };
 		D72419AD2DD73E0100AA4DA1 /* CrashMe.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CrashMe.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D79DC5CF2DDB348A00E87B7D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D79DC5D02DDB348A00E87B7D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		D79DC5D12DDB348A00E87B7D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D79DC5D22DDB348A00E87B7D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D79DC5D32DDB348A00E87B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D79DC5D52DDB348A00E87B7D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D79DC5D62DDB348A00E87B7D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D79DC5D82DDB348A00E87B7D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
-		D79DC5D92DDB348A00E87B7D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
-		D79DC5DA2DDB348A00E87B7D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D79DC5DB2DDB348A00E87B7D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,17 +65,10 @@
 		D79DC5DC2DDB348A00E87B7D /* CrashMe */ = {
 			isa = PBXGroup;
 			children = (
-				D79DC5CF2DDB348A00E87B7D /* AppDelegate.h */,
-				D79DC5D02DDB348A00E87B7D /* AppDelegate.m */,
 				D79DC5D12DDB348A00E87B7D /* Assets.xcassets */,
 				D79DC5D22DDB348A00E87B7D /* Info.plist */,
 				D79DC5D42DDB348A00E87B7D /* LaunchScreen.storyboard */,
 				D79DC5D52DDB348A00E87B7D /* main.m */,
-				D79DC5D72DDB348A00E87B7D /* Main.storyboard */,
-				D79DC5D82DDB348A00E87B7D /* SceneDelegate.h */,
-				D79DC5D92DDB348A00E87B7D /* SceneDelegate.m */,
-				D79DC5DA2DDB348A00E87B7D /* ViewController.h */,
-				D79DC5DB2DDB348A00E87B7D /* ViewController.m */,
 			);
 			path = CrashMe;
 			sourceTree = "<group>";
@@ -162,7 +144,6 @@
 			files = (
 				D79DC5E12DDB348A00E87B7D /* Assets.xcassets in Resources */,
 				D79DC5E32DDB348A00E87B7D /* LaunchScreen.storyboard in Resources */,
-				D79DC5E42DDB348A00E87B7D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,10 +196,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D79DC5DD2DDB348A00E87B7D /* AppDelegate.m in Sources */,
 				D79DC5DE2DDB348A00E87B7D /* main.m in Sources */,
-				D79DC5DF2DDB348A00E87B7D /* SceneDelegate.m in Sources */,
-				D79DC5E02DDB348A00E87B7D /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,14 +209,6 @@
 				D79DC5D32DDB348A00E87B7D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-		D79DC5D72DDB348A00E87B7D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D79DC5D62DDB348A00E87B7D /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -258,9 +228,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = CrashMe;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,9 +256,7 @@
 				INFOPLIST_KEY_CFBundleDisplayName = CrashMe;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

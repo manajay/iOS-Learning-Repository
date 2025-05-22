@@ -1,0 +1,16 @@
+use_frameworks!
+
+platform :ios, '11.0'
+#source 'https://github.com/CocoaPods/Specs.git'
+
+target 'TIFastApp_Example' do
+  pod 'TIFastApp', :path => '../', :subspecs => ['App', 'Common']
+  pod 'Masonry'
+  pod 'MJExtension'
+
+  target 'TIFastApp_Tests' do
+    inherit! :search_paths
+    
+  end
+  
+end

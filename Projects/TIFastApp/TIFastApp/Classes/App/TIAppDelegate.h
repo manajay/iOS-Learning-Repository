@@ -1,0 +1,15 @@
+//
+//  TIAppDelegate.h
+//  TIFastApp
+//
+//  Created by manajay on 2025/5/16.
+//
+
+#import <UIKit/UIKit.h>
+
+@interface TIAppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow * window;
+
+@end
+
